@@ -2,3 +2,15 @@
     list-style-type: none;
     font-size: 16px;
 }
+
+.taskList__item {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 20px;
+    margin: 0 auto;
+}
+
+.taskList__item--done {
+    text-decoration: line-through;
+}
