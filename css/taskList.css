@@ -1,16 +1,37 @@
 .taskList {
     list-style-type: none;
     font-size: 16px;
+    margin: 0 auto;
+    padding: 20px;
 }
 
 .taskList__item {
     display: flex;
-    flex-direction: row;
     justify-content: space-between;
-    padding: 20px;
-    margin: 0 auto;
+    padding: 10px 0;
+    word-break: break-word;
 }
 
 .taskList__item--done {
     text-decoration: line-through;
+}
+
+.taskList__content {
+    flex-grow: 1;
+    padding: 0 20px;
+}
+
+.taskList__button {
+    border: none;
+    min-height: 25px;
+    min-width: 25px;
+}
+
+.taskList__button--done {
+    background-color: rgb(41, 145, 20);
+    color: white;
+}
+
+.taskList__button--remove {
+    background-color: red;
 }
