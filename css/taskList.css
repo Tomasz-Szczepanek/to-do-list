@@ -10,6 +10,7 @@
     justify-content: space-between;
     padding: 10px 0;
     word-break: break-word;
+    border-bottom: 1px solid #ccc;
 }
 
 .taskList__item--done {
@@ -22,9 +23,12 @@
 }
 
 .taskList__button {
+    flex-basis: 35px;
+    flex-shrink: 0;
     border: none;
-    min-height: 25px;
-    min-width: 25px;
+    min-height: 35px;
+    min-width: 35px;
+    align-self: center;
 }
 
 .taskList__button--done {
