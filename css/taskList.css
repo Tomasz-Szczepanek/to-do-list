@@ -18,8 +18,10 @@
 }
 
 .taskList__content {
+    display: flex;
     flex-grow: 1;
     padding: 0 20px;
+    align-items: center;
 }
 
 .taskList__button {
