@@ -1,6 +1,6 @@
 # To Do List App
 
-![to-do-list](images/todolist.jpg)
+![to-do-list](images/todolist.png)
  
 ## Preview of my To Do List App :leftwards_arrow_with_hook:
 [Tap here!](https://tomasz-szczepanek.github.io/to-do-list/)
@@ -15,5 +15,7 @@
 - CSS
   - Flexbox
   - Grid
+
+## Simple instruction
   
   
